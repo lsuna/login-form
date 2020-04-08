@@ -1,0 +1,108 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(to right, #9D50BB, #6E48AA);
+}
+
+.container{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.card {
+    height: 450px;
+    width: 350px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    padding: 20px;
+    box-shadow: 10px 10px 10px #424242;
+    border-radius: 4px;
+}
+
+
+
+#header{
+    text-align: center;
+}
+
+#welcome{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+}
+
+label{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+hr{
+   width: 100%;
+}
+
+input[type=text] {
+ 
+  margin: 0 auto 5px auto;
+  text-align: center;
+  width: 130px;
+  padding: 12px 20px;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+input[type=password] {
+ 
+  margin: 0 auto 5px auto;
+  text-align: center;
+  width: 130px;
+  padding: 12px 20px;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=password]:focus {
+  width: 100%;
+}
+
+#btn{
+/*  centering the button*/
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  font-size: 16px;
+  border-radius: 4px;
+  
+  opacity: 0.6;
+/*  //color*/
+  
+  background-color: #9575CD;
+  width: 180px;
+  height: 45px;
+}
+
+#btn:hover{
+    cursor: not-allowed;
+}
+
+.btn-active{
+    transition-duration: .4s;
+    opacity: 1%;
+    cursor: pointer;
+            
+}
+
+
+
+
